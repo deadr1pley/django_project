@@ -5,4 +5,4 @@ def index(request):
     if request.method == "POST":
         return HttpResponse("You must have POSTed somthing")
     else:
-        return HttpResponse(request.metod)
+        return HttpResponse(request.method)
